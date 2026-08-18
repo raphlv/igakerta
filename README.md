@@ -1,129 +1,69 @@
 ﻿<div align="center">
 
-# Sistem Informasi Desa Iga Kerta
+# ðŸ›ï¸ Sistem Informasi Desa Iga Kerta (E-Government)
 
-### *Integrated E-Government & Public Service Portal*
+### *Portal Pelayanan Publik, Administrasi Kependudukan, & Transparansi Anggaran Desa*
 
-![PHP](https://img.shields.io/badge/PHP-informational?style=for-the-badge&logo=PHP&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-informational?style=for-the-badge&logo=MySQL&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-informational?style=for-the-badge&logo=Bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-informational?style=for-the-badge&logo=HTML5&logoColor=white)
-
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.1-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-orange?style=for-the-badge)
 
 ---
 
 </div>
 
-## ðŸ“Œ Overview
+## ðŸ“Œ About Project
 
-Iga Kerta is an integrated e-government portal built to digitize village administration, streamline citizen civil document requests, and display transparent public budget reports.
-
-Developed to provide a robust, clean, and production-ready architecture tailored for Public Administration & Local Government requirements.
+**Sistem Informasi Desa Iga Kerta** adalah aplikasi web pelayanan publik dan administrasi pemerintah desa. Portal ini dirancang untuk memudahkan warga Desa Iga Kerta dalam mengajukan surat-surat keterangan secara online, mengakses statistik kependudukan, serta memantau transparansi APBDesa dan pembangunan desa.
 
 ---
 
-## âœ¨ Key Features
+## âœ¨ Fitur Utama
 
-- **Online Civil Document Request System (Surat Keterangan Online)**
-- **Real-time Village Demographics & Population Dashboard**
-- **Public Budget Transparency & Development Project Tracking**
-- **Citizen Complaints, Suggestions, & Helpdesk Portal**
-- **Village News, Announcements, & Event Calendar**
+### ðŸ“„ 1. Pelayanan Surat Online (E-Surat)
+- Pengajuan Surat Keterangan Usaha (SKU), Domisili, Kurang Mampu (SKTM), dan Kelahiran.
+- Monitoring status pengajuan surat secara real-time oleh warga.
+- Cetak surat langsung berformat PDF dengan ttd/stempel kepala desa.
 
----
+### ðŸ‘¥ 2. Demografi & Kependudukan
+- Pendataan warga berdasarkan RT/RW, Dusun, Pekerjaan, dan Pendidikan.
+- Grafik dan chart statistik jumlah penduduk otomatis.
 
-## ðŸ› ï¸ Technology Stack
-
-| Component | Technologies Used |
-| :--- | :--- |
-| **Backend & Framework** | PHP / Node.js / Laravel / Modular Architecture |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Bootstrap / Tailwind CSS |
-| **Database** | MySQL / MariaDB / Relational Schema |
-| **Tools & Version Control** | Git, Composer, NPM, Laragon / Web Server |
+### ðŸ’° 3. Transparansi APBDesa & Berita Desa
+- Publikasi laporan keuangan dan realisasi anggaran dana desa.
+- Portal berita, pengumuman, dan agenda kegiatan desa.
 
 ---
 
-## ðŸ“‚ Project Architecture
+## ðŸš€ Cara Penggunaan & Instalasi
 
-`
-igakerta/
-â”œâ”€â”€ app/               # Core application logic & controllers
-â”œâ”€â”€ config/            # System & environment configuration
-â”œâ”€â”€ database/          # Database migrations, seeders & schema
-â”œâ”€â”€ public/            # Public web assets (CSS, JS, Images)
-â”œâ”€â”€ resources/         # Views, templates & raw assets
-â”œâ”€â”€ routes/            # Web and API routing definitions
-â”œâ”€â”€ storage/           # Logs, cache & application uploads
-â”œâ”€â”€ README.md          # Project documentation
-â””â”€â”€ .gitignore         # Git repository exclusions
-`
-
----
-
-## ðŸš€ Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed on your local environment:
-- **PHP** >= 8.0 or **Node.js** >= 16.x
-- **Composer** / **NPM**
-- **MySQL** / **MariaDB**
-- Web Server (**Laragon** / **XAMPP** / **Apache** / **Nginx**)
-
-### Installation Steps
-
-1. **Clone the repository**
+1. **Clone Repositori**
    `ash
    git clone https://github.com/raphlv/igakerta.git
    cd igakerta
    `
 
-2. **Install Dependencies**
+2. **Import Database**
+   - Buat database baru bernama igakerta di MySQL / PHPMyAdmin.
+   - Import file igakerta.sql yang tersedia pada direktori root.
+
+3. **Jalankan Server**
+   - Pindahkan folder ke c:\laragon\www\igakerta atau jalankan via PHP built-in server:
    `ash
-   composer install
-   # or
-   npm install
+   php -S localhost:8000
    `
-
-3. **Environment Configuration**
-   Copy the .env.example file and configure your database settings:
-   `ash
-   cp .env.example .env
-   `
-
-4. **Database Setup & Migration**
-   `ash
-   php artisan migrate --seed
-   `
-
-5. **Run Local Development Server**
-   `ash
-   php artisan serve
-   # or start via Laragon virtual host: http://igakerta.test
-   `
-
----
-
-## ðŸ¤ Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/raphlv/igakerta/issues).
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git checkout -b feature/AmazingFeature)
-5. Open a Pull Request
 
 ---
 
 ## ðŸ“ License & Author
 
-Distributed under the **MIT License**. See LICENSE for more information.
+Distributed under the **MIT License**.
 
 ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
 âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
-  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:20:38</sub>
+  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:37:04</sub>
 </div>
