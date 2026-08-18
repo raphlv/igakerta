@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸ›ï¸ Sistem Informasi Desa Iga Kerta (E-Government)
+#  Sistem Informasi Desa Iga Kerta (E-Government)
 
 ### *Portal Pelayanan Publik, Administrasi Kependudukan, & Transparansi Anggaran Desa*
 
@@ -13,30 +13,30 @@
 
 </div>
 
-## ðŸ“Œ About Project
+## " About Project
 
 **Sistem Informasi Desa Iga Kerta** adalah aplikasi web pelayanan publik dan administrasi pemerintah desa. Portal ini dirancang untuk memudahkan warga Desa Iga Kerta dalam mengajukan surat-surat keterangan secara online, mengakses statistik kependudukan, serta memantau transparansi APBDesa dan pembangunan desa.
 
 ---
 
-## âœ¨ Fitur Utama
+##  Fitur Utama
 
-### ðŸ“„ 1. Pelayanan Surat Online (E-Surat)
+### " 1. Pelayanan Surat Online (E-Surat)
 - Pengajuan Surat Keterangan Usaha (SKU), Domisili, Kurang Mampu (SKTM), dan Kelahiran.
 - Monitoring status pengajuan surat secara real-time oleh warga.
 - Cetak surat langsung berformat PDF dengan ttd/stempel kepala desa.
 
-### ðŸ‘¥ 2. Demografi & Kependudukan
+### ' 2. Demografi & Kependudukan
 - Pendataan warga berdasarkan RT/RW, Dusun, Pekerjaan, dan Pendidikan.
 - Grafik dan chart statistik jumlah penduduk otomatis.
 
-### ðŸ’° 3. Transparansi APBDesa & Berita Desa
+### ' 3. Transparansi APBDesa & Berita Desa
 - Publikasi laporan keuangan dan realisasi anggaran dana desa.
 - Portal berita, pengumuman, dan agenda kegiatan desa.
 
 ---
 
-## ðŸš€ Cara Penggunaan & Instalasi
+##  Cara Penggunaan & Instalasi
 
 1. **Clone Repositori**
    `ash
@@ -56,12 +56,12 @@
 
 ---
 
-## ðŸ“ License & Author
+## " License & Author
 
 Distributed under the **MIT License**.
 
-ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
-âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
+' **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
+ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
