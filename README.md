@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# ðŸŒ¾ Igakerta Village Portal â€” Smart Village Administration & Public Services
+# Igakerta Village Portal â€” Smart Village Administration & Public Services
 
 ### *Civic Population Census, Letter Request Services, & Village Budget Transparency*
 
@@ -12,9 +12,14 @@
 
 </div>
 
-## ðŸ“Œ About The Project
+## About The Project
 
 Smart village governance web portal enabling residents to request official administrative certificates online, view village development budget allocations, and access local UMKM directories.
 
-<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+---
+
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
+
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
 
